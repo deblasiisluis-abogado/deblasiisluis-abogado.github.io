@@ -45,13 +45,13 @@
     }
     .nav-name {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.82rem; font-weight: 300;
+      font-size: 1rem; font-weight: 300;
       letter-spacing: 0.24em; text-transform: uppercase;
       color: var(--gold); text-decoration: none;
     }
     .nav-right { display: flex; align-items: center; gap: 2.5rem; }
     .nav-link {
-      font-size: 0.6rem; font-weight: 300;
+      font-size: 0.75rem; font-weight: 300;
       letter-spacing: 0.2em; text-transform: uppercase;
       color: var(--muted); text-decoration: none;
       transition: color 0.4s;
@@ -59,10 +59,10 @@
     .nav-link:hover { color: var(--gold); }
     .nav-ig {
       display: flex; align-items: center; gap: 0.4rem;
-      font-size: 0.6rem; font-weight: 300;
+      font-size: 0.75rem; font-weight: 300;
       letter-spacing: 0.16em; text-transform: uppercase;
       color: var(--gold); text-decoration: none;
-      border: 1px solid var(--border); padding: 0.45rem 1rem;
+      border: 1px solid var(--border); padding: 0.5rem 1.1rem;
       transition: background 0.4s, border-color 0.4s;
     }
     .nav-ig:hover { background: var(--gold-dim); border-color: rgba(201,168,76,0.35); }
@@ -134,7 +134,7 @@
     .name-pre {
       display: block;
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1rem, 2.2vw, 1.6rem);
+      font-size: clamp(1.2rem, 2.5vw, 2rem);
       font-weight: 200;
       letter-spacing: 0.45em; text-transform: uppercase;
       color: rgba(201,168,76,0.7);
@@ -152,7 +152,7 @@
     .name-title {
       display: block;
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(0.65rem, 1vw, 0.85rem);
+      font-size: clamp(0.8rem, 1.2vw, 1.05rem);
       font-weight: 300; font-style: normal;
       letter-spacing: 0.55em; text-transform: uppercase;
       color: rgba(201,168,76,0.65);
@@ -162,7 +162,7 @@
     /* latin motto */
     .hero-latin {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(0.6rem, 0.9vw, 0.75rem);
+      font-size: clamp(0.75rem, 1.1vw, 0.95rem);
       font-style: italic; font-weight: 300;
       letter-spacing: 0.18em;
       color: rgba(201,168,76,0.55);
@@ -179,8 +179,8 @@
     }
 
     .hero-tagline {
-      font-size: clamp(0.6rem, 0.9vw, 0.72rem);
-      font-weight: 300; letter-spacing: 0.32em;
+      font-size: clamp(0.72rem, 1.05vw, 0.88rem);
+      font-weight: 300; letter-spacing: 0.28em;
       text-transform: uppercase; color: #a09a8c;
       margin-top: 2.2rem; line-height: 2.4;
       opacity: 0; animation: fadeUp 0.8s 1.5s ease forwards;
@@ -193,20 +193,20 @@
     }
     .btn-primary {
       font-family: 'Nunito', sans-serif;
-      font-size: 0.58rem; font-weight: 400;
-      letter-spacing: 0.26em; text-transform: uppercase;
+      font-size: 0.72rem; font-weight: 400;
+      letter-spacing: 0.22em; text-transform: uppercase;
       text-decoration: none; color: var(--ink);
-      background: var(--gold); padding: 0.95rem 2.6rem;
+      background: var(--gold); padding: 1rem 2.8rem;
       transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
       box-shadow: 0 0 28px rgba(201,168,76,0.18);
     }
     .btn-primary:hover { background: var(--gold-lite); box-shadow: 0 0 44px rgba(201,168,76,0.35); transform: translateY(-2px); }
     .btn-secondary {
       font-family: 'Nunito', sans-serif;
-      font-size: 0.58rem; font-weight: 400;
-      letter-spacing: 0.26em; text-transform: uppercase;
+      font-size: 0.72rem; font-weight: 400;
+      letter-spacing: 0.22em; text-transform: uppercase;
       text-decoration: none; color: var(--gold);
-      background: transparent; padding: 0.95rem 2.6rem;
+      background: transparent; padding: 1rem 2.8rem;
       border: 1px solid var(--border);
       transition: background 0.3s, border-color 0.3s;
     }
@@ -233,7 +233,7 @@
     section { position: relative; z-index: 1; padding: 8rem 5rem; }
 
     .eyebrow {
-      font-size: 0.58rem; font-weight: 400;
+      font-size: 0.72rem; font-weight: 400;
       letter-spacing: 0.42em; text-transform: uppercase;
       color: var(--gold); margin-bottom: 1.4rem; display: block;
     }
@@ -272,12 +272,12 @@
     .area-body {}
     .area-name {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.55rem; font-weight: 300;
+      font-size: 1.85rem; font-weight: 300;
       color: var(--text); margin-bottom: 0.6rem;
       transition: color 0.4s;
     }
     .area-item:hover .area-name { color: var(--gold); }
-    .area-desc { font-size: 0.76rem; font-weight: 200; line-height: 2; color: var(--muted); max-width: 500px; }
+    .area-desc { font-size: 0.9rem; font-weight: 200; line-height: 2; color: var(--muted); max-width: 500px; }
 
     /* balanza icon on hover */
     .area-icon {
@@ -341,13 +341,13 @@
     .quote-text em { color: var(--gold); }
     .quote-rule { width: 36px; height: 1px; background: rgba(201,168,76,0.4); margin: 2.8rem auto; }
     .quote-attr {
-      font-size: 0.6rem; font-weight: 300;
+      font-size: 0.75rem; font-weight: 300;
       letter-spacing: 0.38em; text-transform: uppercase; color: var(--muted);
     }
     .quote-latin {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.72rem; font-style: italic; font-weight: 300;
-      letter-spacing: 0.15em; color: rgba(201,168,76,0.28);
+      font-size: 0.88rem; font-style: italic; font-weight: 300;
+      letter-spacing: 0.15em; color: rgba(201,168,76,0.35);
       margin-top: 0.8rem; display: block;
     }
 
@@ -361,14 +361,14 @@
       max-width: 1100px; margin: 0 auto;
     }
     .contacto-left p {
-      font-size: 0.78rem; font-weight: 200;
+      font-size: 0.92rem; font-weight: 200;
       line-height: 2.2; color: var(--muted);
       margin: 1.5rem 0 3rem; max-width: 360px;
     }
     .contact-links { display: flex; flex-direction: column; }
     .contact-link {
       display: flex; align-items: center; gap: 1rem;
-      font-size: 0.74rem; font-weight: 300;
+      font-size: 0.88rem; font-weight: 300;
       letter-spacing: 0.1em; color: var(--muted);
       text-decoration: none; padding: 1.1rem 0;
       border-bottom: 1px solid var(--border);
@@ -395,8 +395,8 @@
 
     .ig-logo { width: 42px; height: 42px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.8rem; }
     .ig-logo svg { width: 18px; height: 18px; fill: var(--gold); }
-    .ig-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 200; font-style: italic; color: var(--gold); letter-spacing: 0.06em; margin-bottom: 0.6rem; }
-    .ig-sub { font-size: 0.62rem; font-weight: 200; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); line-height: 2; margin-bottom: 2.2rem; }
+    .ig-name { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 200; font-style: italic; color: var(--gold); letter-spacing: 0.06em; margin-bottom: 0.6rem; }
+    .ig-sub { font-size: 0.78rem; font-weight: 200; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); line-height: 2; margin-bottom: 2.2rem; }
 
     /* ══ FOOTER ══ */
     footer {
@@ -408,9 +408,9 @@
       background: rgba(3,4,5,0.88);
     }
     .footer-left { display: flex; flex-direction: column; gap: 0.3rem; }
-    .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 0.85rem; font-weight: 200; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(201,168,76,0.55); }
-    .footer-latin { font-family: 'Cormorant Garamond', serif; font-size: 0.62rem; font-style: italic; font-weight: 200; letter-spacing: 0.12em; color: rgba(201,168,76,0.22); }
-    .footer-copy { font-size: 0.58rem; font-weight: 200; letter-spacing: 0.1em; color: var(--muted); }
+    .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 200; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(201,168,76,0.55); }
+    .footer-latin { font-family: 'Cormorant Garamond', serif; font-size: 0.75rem; font-style: italic; font-weight: 200; letter-spacing: 0.12em; color: rgba(201,168,76,0.28); }
+    .footer-copy { font-size: 0.72rem; font-weight: 200; letter-spacing: 0.1em; color: var(--muted); }
 
     /* ══ ANIMATIONS ══ */
     @keyframes fadeIn  { from{opacity:0}        to{opacity:1} }
